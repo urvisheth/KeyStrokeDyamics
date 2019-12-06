@@ -79,19 +79,13 @@ The comparison of equal error rate (ERR) is shown below in the table.
 
 
 
-| Methods	   | Equal Error rate from| different dataset   |
-
-| ------------- |:------------------------:| ------------------------:|
-
-|                      |         Dataset 1 	  |            Dataset 2	 |
-
-| ------------- |:------------------------:| ------------------------:|
-
-|Manhattan|             0.383         	  |	0.195	 |
-
-|Euclidean   |             0.444	  |	0.218	 |
-
-|K-Means    |            `0.306`	  |              `0.155`          |
+| Methods	   | Equal Error rate from |different dataset|
+|------------|:---------------------:| ---------------:|
+|            |         Dataset 1     |   Dataset 2	    |
+|------------|:---------------------:|----------------:|
+|Manhattan   |          0.383        |	     0.195      |
+|Euclidean   |          0.444	       |	     0.218	     |
+|K-Means     |         `0.306`	      |     `0.155`     |
 
 ## References
 
