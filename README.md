@@ -5,6 +5,7 @@ User Verification based on Keystroke Dynamics
 
 In Collbration with [Rakshith Churchgundi Amarnath](https://github.com/rakshithca/) and Aditya Yaji
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ## Steps to execute
 1. Execute **Collecting key stroke.ipynb** , enter name, press enter and then enter alphanumeric data on which you want keystroke data. See the stored data in Collecting_keyStroke.csv
