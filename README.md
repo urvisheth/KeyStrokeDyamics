@@ -47,7 +47,7 @@ To get the key stroke dynamics, pyhook python library is used. This library allo
 
 The Second dataset is called CMU Keystroke Dynamics Benchmark Data-set [2] which comprised of keystroke information for 51 users, each user typing the password “.tie5Roanl” 400 times. The recruited 51 subjects (typists) fully completed the study. All subjects typed the same password, and each subject typed the password 400 times over 8 sessions (50 repetitions per session). The password (.tie5Roanl) was chosen to be representative of a strong 10-character password [1].
 
-![keystroke Image] (https://github.com/urvisheth/KeyStrokeDyamics/blob/master/image/key.png)
+![keystroke Image](https://github.com/urvisheth/KeyStrokeDyamics/blob/master/image/key.png)
 
 ### Feature Extraction
 
@@ -71,7 +71,11 @@ After having all the dataset timing values, now the project will train the model
 ![keystroke Image](https://github.com/urvisheth/KeyStrokeDyamics/raw/master/image/op3.png "set 3")
 
 ## References
+
 [1] http://www.cs.cmu.edu/~keystroke/
+
 [2] https://appliedmachinelearning.blog/2017/07/26/user-verification-based-on-keystroke-dynamics-python-code/
+
 [3] https://github.com/njanakiev/keystroke-biometrics/blob/master/keystroke-biometrics.ipynb
+
 [4] https://github.com/abhijeet3922/User-Verification-based-on-Keystroke-Dynamics
