@@ -29,7 +29,9 @@ K-Nearest Neighbours
 The implementation for generating key stroke dynamics and model training is done is three phases in this project using python 3.6/3.7:
 
 •	Data Acquisition
+
 •	Feature Extraction
+
 •	Feature Engineering
 
 ### Data Acquisition - Datasets
@@ -39,13 +41,13 @@ The implementation for generating key stroke dynamics and model training is done
 This project mainly uses two datasets, first dataset is collected by running the ipynb named Collecting keystroke. This file takes input from user and stores it into the collecting_keystroke.csv. The first input is the name of the user and after that the user is asked to enter alphanumeric data with some special characters.
 To get the key stroke dynamics, pyhook python library is used. This library allows to write own event listeners to key up and key down events with the other information such as time, the key id of the key pressed, ascii value of the key pressed etc.
 
-![keystroke Image] (https://github.com/urvisheth/KeyStrokeDyamics/image/op1.png)
+![keystroke Image] (https://github.com/urvisheth/KeyStrokeDyamics/blob/master/image/op1.png)
 
 #### Dataset -2
 
 The Second dataset is called CMU Keystroke Dynamics Benchmark Data-set [2] which comprised of keystroke information for 51 users, each user typing the password “.tie5Roanl” 400 times. The recruited 51 subjects (typists) fully completed the study. All subjects typed the same password, and each subject typed the password 400 times over 8 sessions (50 repetitions per session). The password (.tie5Roanl) was chosen to be representative of a strong 10-character password [1].
 
-![keystroke Image] (https://github.com/urvisheth/KeyStrokeDyamics/image/key.png)
+![keystroke Image] (https://github.com/urvisheth/KeyStrokeDyamics/blob/master/image/key.png)
 
 ### Feature Extraction
 
@@ -53,7 +55,7 @@ The Second dataset is called CMU Keystroke Dynamics Benchmark Data-set [2] which
 
 To calculate timing features for the first dataset, for each user the key down and key up event for each key id is identified. For the key pressing event, the event of down-up pair is one key stroke. So, from the millisecond value which is stored in collecting keystroke csv file is taken into calculation to find values of Hold, Down-Down and Up-Down. We are considering ascii value of 33 to 122 (a-z A-Z 0-9 and special characters). The values for each key and user combination taken from the input file and then the values are calculated and stored in keystrokedistance.csv.
 
-![keystroke Image] (https://github.com/urvisheth/KeyStrokeDyamics/image/op2.png)
+![keystroke Image] (https://github.com/urvisheth/KeyStrokeDyamics/blob/master/image/op2.png)
 
 #### For Dataset - 2
 
@@ -65,7 +67,7 @@ After having all the dataset timing values, now the project will train the model
 
 ##Results
 
-![keystroke Image] (https://github.com/urvisheth/KeyStrokeDyamics/image/op3.png)
+![keystroke Image] (https://github.com/urvisheth/KeyStrokeDyamics/blob/master/image/op1.png)
 
 ## References
 [1] http://www.cs.cmu.edu/~keystroke/
