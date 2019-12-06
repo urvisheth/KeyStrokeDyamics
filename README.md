@@ -66,9 +66,26 @@ For second dataset, the raw records of all the subjects' keystrokes and timestam
 
 After having all the dataset timing values, now the project will train the model using this data. We have used Manhattan, Euclidean and K-means algorithmic models. We take both the dataset as input to the algorithm and divide the dataset into 70-30% for training and testing datasets. The training data is applied to each algorithm and the test data is used to predict if the model can predict the user is valid or not. These models are written in the file named analysis ipynb. 
 
-##Results
+## Results
+
+The result here is compared in the form of ROC curve. There were two datasets in which one was controlled, and another is self-collected gibberish dataset. The three models which are applied are Manhattan distance, Euclidean distance and k-means algorithm. 
+
+Though the error rate seems bad in comparison, it is still a better result as it gives minimum of 55-60% accuracy for the worst case.
 
 ![keystroke Image](https://github.com/urvisheth/KeyStrokeDyamics/raw/master/image/op3.png "set 3")
+
+
+The comparison of equal error rate (ERR) is shown below in the table.
+
+
+
+| Methods	   | Equal Error rate from different dataset   |
+| ------------- |:------------------------:| ------------------------:|
+|                      |         Dataset 1 	  |            Dataset 2	 |
+| ------------- |:------------------------:| ------------------------:|
+|Manhattan|             0.383         	  |	0.195	 |
+|Euclidean   |             0.444	  |	0.218	 |
+|K-Means    |            `0.306`	  |              `0.155`          |
 
 ## References
 
