@@ -79,7 +79,7 @@ The comparison of equal error rate (ERR) is shown below in the table.
 
 
 
-| Methods	   | Equal Error rate from different dataset   |
+| Methods	   | Equal Error rate from| different dataset   |
 
 | ------------- |:------------------------:| ------------------------:|
 
