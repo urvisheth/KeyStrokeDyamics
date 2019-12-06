@@ -29,7 +29,9 @@ K-Nearest Neighbours
 The implementation for generating key stroke dynamics and model training is done is three phases in this project using python 3.6/3.7:
 
 •	Data Acquisition
+
 •	Feature Extraction
+
 •	Feature Engineering
 
 ### Data Acquisition - Datasets
@@ -87,6 +89,9 @@ The comparison of equal error rate (ERR) is shown below in the table.
 ## References
 
 [1] http://www.cs.cmu.edu/~keystroke/
+
 [2] https://appliedmachinelearning.blog/2017/07/26/user-verification-based-on-keystroke-dynamics-python-code/
+
 [3] https://github.com/njanakiev/keystroke-biometrics/blob/master/keystroke-biometrics.ipynb
+
 [4] https://github.com/abhijeet3922/User-Verification-based-on-Keystroke-Dynamics
