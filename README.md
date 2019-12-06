@@ -13,7 +13,6 @@ In Collbration with [Rakshith Churchgundi Amarnath](https://github.com/rakshithc
 
 3. execute **Analysis.ipynb** to see the analysis for both the datasets for the three algorithms mentioned below. 
 
-(The folder **python files** have equivalent python files for all ipynb)
 
 ## Proposal
 
