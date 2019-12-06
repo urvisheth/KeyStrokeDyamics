@@ -5,7 +5,6 @@ User Verification based on Keystroke Dynamics
 
 In Collbration with [Rakshith Churchgundi Amarnath](https://github.com/rakshithca/) and Aditya Yaji
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ## Steps to execute
 1. Execute **Collecting key stroke.ipynb** , enter name, press enter and then enter alphanumeric data on which you want keystroke data. See the stored data in Collecting_keyStroke.csv
@@ -42,7 +41,7 @@ The implementation for generating key stroke dynamics and model training is done
 This project mainly uses two datasets, first dataset is collected by running the ipynb named Collecting keystroke. This file takes input from user and stores it into the collecting_keystroke.csv. The first input is the name of the user and after that the user is asked to enter alphanumeric data with some special characters.
 To get the key stroke dynamics, pyhook python library is used. This library allows to write own event listeners to key up and key down events with the other information such as time, the key id of the key pressed, ascii value of the key pressed etc.
 
-![keystroke Image] (https://github.com/urvisheth/KeyStrokeDyamics/blob/master/image/op1.png)
+![keystroke Image] (https://github.com/urvisheth/KeyStrokeDyamics/blob/master/image/op1.png "Input 1 example")
 
 #### Dataset -2
 
